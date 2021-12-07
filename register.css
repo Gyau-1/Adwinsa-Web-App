@@ -1,0 +1,260 @@
+.container{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+}
+.navbar{
+    background-color: rgb(241, 239, 239);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.items{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    
+}
+.header {
+
+    width: 200px;
+    font-size: 33px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: bolder;
+
+}
+.form-container{
+    position: justify;
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    margin-top: 60px;
+margin-left: 25vw;
+margin-bottom: 25px;
+border: 1px solid rgb(192, 190, 190) ;
+animation: transparent 5s ;
+
+}
+@keyframes transparent {
+  from{opacity: 0;}
+  to{opacity: 1;}
+  
+}
+.form-container:hover{
+    box-shadow: 3px 10px 10px 10px rgb(175, 175, 175);
+    transition: ease-in-out;
+      transition-delay: 0.1s;
+      transition-duration: 0.5s;
+}
+ .form {
+display: flex;
+flex-direction:column;
+width:350px;
+height:470px;
+padding-bottom: 100px;
+padding-left: 50px;
+background-color: white;
+border-top: 10px solid white;
+text-align: left;
+font-family: 'Courier New', Courier, monospace;
+
+ ;
+
+
+}
+
+/*
+.form:hover{
+    box-shadow: 3px 10px 10px 10px rgb(202, 201, 201);
+    transition: ease-in-out;
+      transition-delay: 0.1s;
+      transition-duration: 0.5s;
+    }    */
+ 
+
+ .fname {
+
+    margin-bottom: 10px;
+    font-weight: bold;
+     
+ }
+
+ @keyframes drive{
+  from{left:200px;}
+  to{left:0px;}
+}
+  .lname {
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+
+  .submit {
+    margin-left: 80px;
+    font-weight: bold;
+    
+  }
+  .submit1{
+    color: black;
+    background-color: transparent;
+    border: 3px solid black;
+    border-radius: 1px;
+    height: 40px;
+    width: 150px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .submit1:hover{
+      color: white;
+      background-color:#061D88;
+      border-radius: 20px;
+      transition: ease-out;
+      transition-delay: 0.3s;
+      transition-duration: 0.5s;
+      
+  }
+
+  .email {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .contact {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }  
+
+  .pass {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type=text] {
+    border: 2px solid black;
+  border-radius: 4px;
+  width: 90%;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input[type=password] {
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 90%;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+input[type=text]:focus {
+  border: 2px solid black;
+  transition: 0.4s ease-in-out
+}
+input[type=number] {
+    border: 2px solid black;
+  border-radius: 4px;
+  width: 90%;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.rpanel{
+display: flex;
+flex-direction:column;
+width:350px;
+height:480px;
+padding-bottom: 100px;
+padding-left: 20px;
+background-image: linear-gradient(to top, black,#061D88);
+font-family: 'Courier New', Courier, monospace;
+animation: transparent 8 s;
+
+}
+
+@keyframes transparent {
+  from{opacity: 0;}
+  to{opacity: 1;}
+  
+}
+.glad{
+    color: white;
+    font-weight: bold;
+    margin-top: 200px;
+    cursor: default;
+}
+.foottext{
+    color: grey;
+    padding-left: 25px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px  rgba(238, 185, 70, 0);
+    position: fixed;
+    width:100%;
+    z-index: 1;
+    background-color:#fcfcfc;
+    top: 0%;
+}
+.logo img{
+    height:40px;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    height: 40px;
+    line-height: 40px;
+    margin: 3px;
+    padding: 0px 10px;
+    display: flex;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    background-color:#fcfcfc ;
+    color: #061d88;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #8b99b1a2;
+    background-color: #ffffff00;
+    position: relative;
+  }
+  footer p {
+    margin: 250px 0px;
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+  }
